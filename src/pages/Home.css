@@ -1,0 +1,41 @@
+* {
+    font-family: Helvetica;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-div {
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-div a {
+    border: none;
+    background: none;
+    color: black;
+    font-family: 'Helvetica';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: 650;
+    color: rgb(23, 65, 164);
+}

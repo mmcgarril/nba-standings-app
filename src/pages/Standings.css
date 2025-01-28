@@ -1,0 +1,43 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.standings-heading {
+    margin-bottom: 5px;
+}
+
+.to-home {
+    margin-bottom: 10px;
+}
+
+#years {
+    width: 100px;
+    margin-left: 10px;
+}
+
+#years:hover {
+    cursor: pointer;
+}
+
+th, td {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.team-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.team-logo {
+    max-height: 25px;
+}
+
+tr {
+    height: 30px;
+}
